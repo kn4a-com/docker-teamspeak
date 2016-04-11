@@ -1,3 +1,11 @@
+  # (http://teamspeak.com/).
+  #
+  # Authors: Koen Jannssen
+  # Updated: April 11th, 2016
+  # Require: Docker (http://www.docker.io/)
+  # -----------------------------------------------------------------------------
+  
+  # Base system is Alpine linux + glibx from frolvlad
 FROM frolvlad/alpine-glibc
 
 MAINTAINER Koen <koen253janssen@gmail.com>
