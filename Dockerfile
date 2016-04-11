@@ -21,7 +21,7 @@ RUN mkdir /opt \
   && adduser -u 503 -G teamspeak -h /opt/teamspeak -S -D teamspeak \
   && chown -R teamspeak:teamspeak /opt/teamspeak
 
-VOLUME ["/data/teamspeak"]
+VOLUME ["/data"]
 EXPOSE 9987/udp 10011 30033
 USER teamspeak
 ENTRYPOINT ["/opt/teamspeak/ts3server_minimal_runscript.sh"]
