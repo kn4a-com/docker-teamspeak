@@ -13,10 +13,10 @@ docker pull skardoska/teamspeak
 ```
 Run:
 ```
-docker run -d --net=host --name alpine-teamspeak \
+docker run -ti --net=host --name teamspeak \
 -v /data/teamspeak:/data \
 -v /data/teamspeak/ts3server.sqlitedb:/opt/teamspeak/ts3server.sqlitedb \
-orimani/alpine-teamspeak:latest \
+skardoska/teamspeak:latest \
 logpath=/data/logs/ \
 query_ip_whitelist=/data/query_ip_whitelist.txt \
 query_ip_blacklist=/data/query_ip_blacklist.txt
