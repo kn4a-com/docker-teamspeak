@@ -1,6 +1,8 @@
-# Docker Alpine Teamspeak
+# Docker Teamspeak
+Docker image for Teamspeak server
+based off Alpine Linux 3.3
 
-Prepare:
+Prepare
 ```
 mkdir -p /data/teamspeak
 touch /data/teamspeak/ts3server.sqlitedb
