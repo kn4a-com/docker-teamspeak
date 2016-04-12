@@ -26,6 +26,5 @@ To get the server admin query login/pass and admin token for the first client co
 ```
 docker logs -f teamspeak
 ```
-Migrating teamspeak server: 
-You can migrate your teamspeak server by moving the ts3server.sqlitedb file to the /data/teamspeak folder on your host machine.
+
 
